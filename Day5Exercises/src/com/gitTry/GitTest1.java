@@ -8,5 +8,9 @@ public class GitTest1 {
 		System.out.println("added more");
 		//add new branch again
 		System.out.println("asd");
+		//add new branch again
+		System.out.println("asd");
+		//add new branch again
+		System.out.println("asd");
 	}
 }
