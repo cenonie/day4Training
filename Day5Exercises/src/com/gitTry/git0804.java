@@ -8,5 +8,8 @@ public class git0804 {
 		System.out.println("start add 3+3 " + (3+3));
 		System.out.println("start add 4+4 " + (4+4));
 		System.out.println("start add 5+5 " + (5+5));
+		System.out.println("start add 6+6 " + (6+6));
+		System.out.println("start add 7+7 " + (7+7));
+		
 	}
 }
