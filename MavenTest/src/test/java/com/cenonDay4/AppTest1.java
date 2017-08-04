@@ -13,5 +13,4 @@ public class AppTest1 {
 			fail("test failed");
 		}
 	}
-
 }
