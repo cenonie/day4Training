@@ -12,5 +12,10 @@ public class GitTest1 {
 		System.out.println("asd");
 		//add new branch again
 		System.out.println("asd");
+		//add new branch again
+		System.out.println("asd");
+		//add new branch again
+		System.out.println("asd");
+		
 	}
 }
