@@ -6,5 +6,7 @@ public class GitTest1 {
 		System.out.println("Git Test");
 		//add more
 		System.out.println("added more");
+		//add new branch again
+		System.out.println("asd");
 	}
 }
