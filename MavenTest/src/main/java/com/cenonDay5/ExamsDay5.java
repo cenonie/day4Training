@@ -2,9 +2,9 @@ package com.cenonDay5;
 
 import java.util.Scanner;
 
-public class ExamsDay5 {
+class ExamsDay5 {
 
-	protected static int[] number1() {
+	protected  int[] number1() {
 		int i = 1;
 		int[] arrayResult = new int[3];
 		for(int j=0; j<5; j+=2) {
@@ -28,7 +28,7 @@ public class ExamsDay5 {
 		return arrayResult; 
 	}
 	
-	protected static void number2(int input) {
+	protected  void number2(int input) {
 		int n = input; 
 		int F_0=1,F_1=1; 
 		int F_n=0; 
@@ -45,7 +45,7 @@ public class ExamsDay5 {
 		System.out.println (F_n); 
 	}
 	
-	protected static void number3()
+	protected  void number3()
 	{
 		int inner=2, outer=2; 
 		int result=0; 
@@ -60,7 +60,7 @@ public class ExamsDay5 {
 		System.out.println(result);
 	}
 	
-	protected static void number3inWhile()
+	protected  void number3inWhile()
 	{
 		int inner=2, outer=2; 
 		int result=0;
@@ -79,7 +79,7 @@ public class ExamsDay5 {
 		System.out.println(result);
 	}
 	
-	protected static void number4() {
+	protected  void number4() {
 		 int x = 3; 
 		 int y = 10; 
 		 while (x < y) 
@@ -89,7 +89,7 @@ public class ExamsDay5 {
 		   } 
 	}
 	
-	protected static int number7(int integer_value) {
+	protected int number7(int integer_value) {
 		boolean done = false;  
 		int count = 1;  
 		int current = integer_value + 2;  
@@ -107,7 +107,7 @@ public class ExamsDay5 {
 		return count;  
 	}
 	
-	protected static void number10a() {
+	protected double number10a() {
 		double count; 
 		int limit; 
 		count = 9.0; 
@@ -117,10 +117,11 @@ public class ExamsDay5 {
 		  System.out.println ("in for:" + count); 
 		} 
 		System.out.println ("after for" + count); 
+		return count;
 	}
 		
-	static int value = 10; 
-	protected static void number10b() {
+	 int value = 10; 
+	protected  void number10b() {
 		System.out.println("Main before p1: " + value); 
 		value = p1(value); 
 		System.out.println("Main before p2: " + value); 
@@ -134,13 +135,13 @@ public class ExamsDay5 {
 		value = p2(value); 
 		System.out.println("Main at the end: " + value); 
 	}
-	static int p1(int input) 
+	 int p1(int input) 
 	{ 
 	  value = input * value; 
 	  System.out.println("In p1: " + value); 
 	  return value; 
 	} 
-	static int p2(int input) 
+	 int p2(int input) 
 	{ 
 	  int value = 5; 
 	  value = input / value; 
@@ -149,7 +150,7 @@ public class ExamsDay5 {
 	} 
 	
 	
-	protected static void number10c() {
+	protected  void number10c() {
 		int value = 5; 
 		int value2 = 1; 
 		while (value2 < 4) 
@@ -162,8 +163,8 @@ public class ExamsDay5 {
 		} 
 	}
 	
-	static boolean a,b,c; 
-	protected static void number10d() {
+	 boolean a,b,c; 
+	protected  void number10d() {
 		a = true; 
 		b = false; 
 		c = false; 
@@ -182,7 +183,7 @@ public class ExamsDay5 {
 		while ( a || b || c); 	
 	}
 	
-	protected static String number10e() {
+	protected  String number10e() {
 		int one = 1; /* type a value here */; 
 		int two = 2;/* type a value here */; 
 		int three = 3;  /* type a value here */; 
@@ -210,7 +211,7 @@ public class ExamsDay5 {
 	}
 	
 	
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		// TODO Auto-generated method stub
 //		number1();
 //		number2();

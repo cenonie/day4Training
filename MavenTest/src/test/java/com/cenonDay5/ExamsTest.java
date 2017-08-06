@@ -3,13 +3,13 @@ package com.cenonDay5;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import com.cenonDay5.ExamsDay5;
+
 
 public class ExamsTest {
-
+	final static ExamsDay5 exams = new ExamsDay5();
 	@Test
 	public void test() {
-		assertEquals(5, ExamsDay5.number7(60));
+		assertEquals(5, exams.number7(60));
 	}
 	
 	@Test
@@ -26,7 +26,7 @@ public class ExamsTest {
 
 	@Test
 	public void test3() {
-		int[] testArray = ExamsDay5.number1();
+		int[] testArray = exams.number1();
 		int[] arrayResult = {13,175,123};
 		assertArrayEquals(arrayResult,testArray);
 		
@@ -34,6 +34,12 @@ public class ExamsTest {
 	
 	@Test
 	public void test4() {
-		assertEquals(ExamsDay5.number10e(), "acartcartoon");
+		assertEquals(exams.number10e(), "acartcartoon");
+	}
+	
+	@Test
+	public void test5() {
+		double x = 10.5;
+		assertEquals(exams.number10a(), x, 0);
 	}
 }
